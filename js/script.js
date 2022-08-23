@@ -44,7 +44,7 @@ function playerVsComputer(playerSelection) {
     result = "Rock beats Scissors, you lose!";
     computerWins++;
   } else if (playerSelection == computerSelection) {
-    result = "Its a Tie";
+    result = "It's a Tie";
   }
   resultado.textContent = `${result}`;
   selections.innerHTML = "";
