@@ -18,12 +18,16 @@ footer{
     width: 100%;
     position: absolute;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 1em;
     bottom: 0;
     font-size: .95em;
     color: #fff;
     text-align: center;
+}
+p{
+    padding: 1rem;
 }
 
 .container{
@@ -53,6 +57,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.credits{
+    padding-top:1rem ;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    font-size: .5rem;
 }
 #score{
     padding-top: 2rem;
