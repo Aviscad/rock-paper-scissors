@@ -59,11 +59,13 @@ function playerVsComputer(playerSelection) {
     score.innerHTML = `
     <p>The Game is Over!</p>
     <p>Final Score</p>
-    <p>Player - ${playerWins}:${computerWins} - Computer</p>
-    `;
+    <p>Player: ${playerWins}</p>
+    <p>Computer:${computerWins}</p>`;
     playerWins = computerWins = 0;
   } else if (playerWins < 5 || computerWins < 5) {
-    score.textContent = `Player - ${playerWins}:${computerWins} - Computer`;
+    score.innerHTML = `
+    <p>Player: ${playerWins}</p>
+    <p>Computer: ${computerWins}</p>`;
   }
 
   selections.appendChild(imgPlayer);
